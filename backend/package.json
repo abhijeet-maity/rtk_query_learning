@@ -1,0 +1,12 @@
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx json-server --watch src/db.json"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
