@@ -6,13 +6,13 @@ function Comments() {
   if(isLoading) return <p>Loading...</p>
   if(error) return <p>OOPS..., an error occurred</p>
   console.log(data.slice(0,16));
-  return <section>
+  return <section className="comments-section">
     <h3>Comments</h3>
-    <div className="comments-section">
+    <div className="comments-list">
         {
             data.slice(0,16).map((comment) => {
                 return (
-                    <div>
+                    <div className="comments">
                         <p><b>Username: </b> {comment.name}</p>
                         <p><b>comment: </b>{comment.body}</p>
                     </div>

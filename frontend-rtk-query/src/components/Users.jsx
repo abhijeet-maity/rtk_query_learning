@@ -5,13 +5,13 @@ function Users() {
   if (isLoading) return <p>Loading...</p>;
   if (error) return <p>An Error occurred</p>;
   console.log(data);
-  return <section>
+  return <section className="users-section">
     <h3>Users list</h3>
-    <div className="users-section">
+    <div className="users-list">
         {
             data.map((user) => {
                 return (
-                    <div>
+                    <div key={user.id}>
                         <p>{user.name}</p>
                         <p>{user.email}</p>
                     </div>
