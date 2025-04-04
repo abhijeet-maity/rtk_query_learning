@@ -3,7 +3,7 @@
     {
       "userId": 1,
       "id": "1",
-      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "title": "WAQF Ammendment act",
       "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
     },
     {
@@ -65,6 +65,16 @@
       "userId": 1,
       "title": "Testing",
       "body": "Testing hai bhai testingwa, khana khaaye ki nahi"
+    },
+    {
+      "id": "dd2c",
+      "title": "jaadooi jaaadoooi",
+      "body": "Tujhse hi jaaadoooi jadoooi"
+    },
+    {
+      "id": "d359",
+      "title": "DK",
+      "body": "debanjali Aunty"
     }
   ]
 }
