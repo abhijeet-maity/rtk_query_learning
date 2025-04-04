@@ -1,0 +1,25 @@
+.users-section {
+  margin-top: 5rem;
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  .users-list {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+
+    div {
+      background-color: #f1c40f;
+      padding: 15px 20px;
+      border-radius: 10px;
+
+      p {
+        color: #2c3e50;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
